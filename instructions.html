@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Intructions</title>
+      <link rel="stylesheet" href="instructions.css">
+      <link rel="shortcut icon" href="../image/logo.jpg" />
+   </head>
+
+   <body>
+      <section id="nav">
+         <img src="../image/logo.jpg" id="logo" alt="logo">
+         <a href="../index.html" class="nav">Home</a>
+         <a href="instructions.html" class="nav">Instructions</a>
+         <a href="../priceIsRight/priceIsRight.html" class="nav">Test</a>
+      </section>
+      <!-- radio -->
+      <div class="countainer">
+         <div class="header">
+            <h3>Radio Input</h3>
+         </div>
+
+         <div class="content">
+            <div class="inputType">
+               <input type="radio" name="radio" class="radio">
+               <label for="radio">1</label>
+               <br>
+
+               <input type="radio" class="radio">
+               <label for="radio">1</label>
+               <br>
+
+               <input type="radio"class="radio">
+               <label for="radio">1</label>
+            </div>
+
+            <div class="explenation">
+               <p>Select your answer by clicking on the corresponding circle of your answer.</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- checkbox -->
+      <div class="countainer">
+         <div class="header">
+            <h3>Checkbox</h3>
+         </div>
+
+         <div class="content">
+            <div class="inputType">
+               <input type="checkbox" name="checkbox" class="checkbox">
+               <label for="checkbox">1</label>
+               <br>
+
+               <input type="checkbox" name="checkbox" class="checkbox">
+               <label for="checkbox">2</label>
+               <br>
+
+               <input type="checkbox" name="checkbox" class="checkbox">
+               <label for="checkbox">3</label>
+            </div>
+
+            <div class="explenation">
+               <p>Select your answer by clicking on the corresponding checkbox of your answer. Multiple checkboxes can be checked at one time,
+                  but for this game one <strong>only one checkbox should be checked.</strong></p>
+            </div>
+         </div>
+      </div>
+
+      <!-- List -->
+      <div class="countainer">
+         <div class="header">
+            <h3>List and drop-down list</h3>
+         </div>
+
+         <div class="content">
+            <div class="inputType">
+               <select size="3">
+                  <option class="list">1</option>
+                  <option class="list">1</option>
+                  <option class="list">1</option>
+               </select>
+               <br>
+
+               <select>
+                  <option class="list">1</option>
+                  <option class="list">2</option>
+                  <option class="list">3</option>
+               </select>
+            </div>
+
+            <div class="explenation">
+               <p>Select your answer by clicking on the corresponding number for your answer.</p>
+            </div>
+         </div>
+      </div>
+
+      <!-- slider -->
+      <div class="slider">
+         <div class="header">
+            <h3>Slider</h3>
+         </div>
+
+         <div class="content">
+            <div class="inputType">
+               <input type="range" min="1" max="3" step="1">
+            </div>
+
+            <div class="explenation">
+               <p>Two pictures will be shown, and you will have to <strong>choose between the left or right picture.</strong></p>
+            </div>
+         </div>
+      </div>
+
+      <!-- text -->
+      <div class="slider">
+         <div class="header">
+            <h3>Text Input</h3>
+         </div>
+
+         <div class="content">
+            <div class="inputType">
+               <input type="text" pattern="\d+" name="text">
+            </div>
+
+            <div class="explenation">
+               <p>Type in the numerical value of your answer, only numerical values can be inputted. A dollar sign should not be inputted.
+                  <strong>Do not type in any spaces when entering your answer.</strong></p>
+            </div>
+         </div>
+      </div>
+
+
+
+   </body>
+</html>

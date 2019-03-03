@@ -1,0 +1,68 @@
+body, html {
+   height: 100%;
+   margin: 0;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(252, 231, 206);
+   font-weight: 400;
+   color: #666;
+   justify-content: center;
+   letter-spacing: 1px;
+}
+
+#nav {
+   background-color: white;
+   padding: 0px;
+   justify-content: left;
+   text-align: left;
+}
+
+.nav {
+   text-transform: uppercase;
+   padding: 20px;
+   background-color: white;
+   color: black;
+   display: inline-block;
+   transition: 0.3s;
+   text-decoration: inherit;
+}
+
+.nav:hover {
+   background-color: rgb(236, 205, 167);
+   color: white;
+   opacity: 0.6;
+}
+
+#logo {
+   width: 10%;
+   display: inline-block;
+   padding: 0px;
+}
+
+.answers2 {
+   background-color: blanchedalmond;
+   font-size: 20px;
+   display: block;
+}
+
+.answer {
+   text-decoration: inherit;
+   color: inherit;
+}
+
+input[type=text] {
+   position: relative;
+   background-color: rgb(250, 239, 226);
+}
+
+.container, .content {
+   margin-left: 3%;
+}
+
+.header {
+   margin-left: 3%;
+   font-weight: 400;
+   font-style: bold;
+   font-size: 17px;
+   text-decoration: underline;
+}

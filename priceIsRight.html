@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+       <meta charset="utf-8">
+       <title>crème test</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="shortcut icon" href="../image/logo.jpg" />       
+       <link rel="stylesheet" href="priceIsRight.css" >
+   </head>
+
+   <body>
+      <section id="nav">
+         <img src="../image/logo.jpg" id="logo" alt="logo">
+         <a href="../index.html" class="nav">Home</a>
+         <a href="../instructions/instructions.html" class="nav">Instructions</a>
+         <a href="../priceIsRight/priceIsRight.html" class="nav">Test</a>
+      </section>
+         <!-- QUESTION: 1 -->
+         <div class="pimg1">
+            <div class="ptext">
+               <span class="border">
+                  First question!
+               </span>
+            </div>
+         </div>
+         <section class="section section-light">
+            <form action="../results/results.php" method="post">
+            <h2>How much are these kicks?</h2>
+
+            <!-- ANSWER DIV HERE -->
+            <div class="answer">
+
+               <input type="radio" name="answers1" value="1" required>
+               <label for="answers1">$700</label>
+               <br>
+
+               <input type="radio" name="answers1" value="2" required>
+               <label for="answers1">$350</label>
+               <br>
+
+               <input type="radio" name="answers1" value="3" required>
+               <label for="answers1">$100</label>
+            </div>
+         </section>
+
+         <!-- QUESTION: 2 -->
+         <div class="pimg2">
+            <div class="ptext">
+               <span class="border">
+                  Moncler or Ami?
+               </span>
+            </div>
+         </div>
+
+         <section class="section section-dark">
+            <h2>Which sweater is more expensive?</h2>
+
+            <!-- ANSWER DIV HERE -->
+            <div class="answer">
+               <input type="range" min="1" max="3" step="1" name="answers2" required>
+            </div>
+         </section>
+
+         <!-- QUESTION: 3 -->
+         <div class="pimg3">
+            <div class="ptext">
+               <span class="border">
+                  Moncler for the winter
+               </span>
+            </div>
+         </div>
+
+         <section class="section section-light">
+            <h2>What is the market price of this jacket?</h2>
+            <!-- ANSWER DIV HERE - PICK ANSWER-->
+            <div class="answer">
+               <select name="answers3" size=3 required>
+                  <option value="200">$200</option>
+                  <option value="550">$550</option>
+                  <option value="950">$950</option>
+               </select>
+            </div>
+         </section>
+
+         <!-- QUESTION: 4 -->
+         <div class="pimg4">
+            <div class="ptext">
+               <span class="border">
+                  Just a shirt?
+               </span>
+            </div>
+         </div>
+
+         <section class="section section-dark">
+            <h2>How much is it worth?</h2>
+
+            <!-- ANSWER DIV HERE - DROP DOWN PICK ANSWER -->
+            <div class="answer">
+               <select name="answers4" required>
+                  <option value="70">$70</option>
+                  <option value="250">$250</option>
+                  <option value="750">$750</option>
+               </select>
+            </div>
+         </section>
+
+         <!-- QUESTION: 5 -->
+         <div class="pimg5">
+            <div class="ptext">
+               <span class="border">
+                  Another shirt?
+               </span>
+            </div>
+         </div>
+
+         <section class="section section-light">
+            <h2>This one is also easy..</h2>
+
+            <!-- ANSWER DIV HERE - CHECKBOX!!!! -->
+            <div class="answer">
+               <input type="checkbox" name="answers5" value="70">
+               <label for="answers1">$70</label>
+               <br>
+
+               <input type="checkbox" name="answers5" value="290">
+               <label for="answers1">$290</label>
+               <br>
+
+               <input type="checkbox" name="answers5" value="1000">
+               <label for="answers1">$1000</label>
+            </div>
+         </section>
+
+         <!-- QUESTION: 6 -->
+         <div class="pimg6">
+            <div class="ptext">
+               <span class="border">
+                  Cute turtleneck!
+               </span>
+            </div>
+         </div>
+
+         <section class="section section-dark">
+            <h2>Guess the price!</h2>
+
+            <!-- ANSWER DIV HERE - DROP DOWN PICK ANSWER -->
+            <div class="answer">
+               <select name="answers6" required>
+                  <option value="400">$400</option>
+                  <option value="699">$699</option>
+                  <option value="465">$465</option>
+               </select>
+            </div>
+         </section>
+
+         <!-- QUESTION: 7 -->
+         <div class="pimg7">
+            <div class="ptext">
+               <span class="border">
+                  Hint: it's Acne!
+               </span>
+            </div>
+         </div>
+
+         <section class="section section-light">
+            <h2>It must be expensive! How much does it cost?!</h2>
+
+            <!-- ANSWER DIV HERE - RADIO PICK ANSWER -->
+            <div class="answer">
+               <input type="radio" name="answers7" value="700" required>
+               <label for="answers10">$700</label>
+               <br>
+
+               <input type="radio" name="answers7" value="630" required>
+               <label for="answers10">$630</label>
+               <br>
+
+               <input type="radio" name="answers7" value="100" required>
+               <label for="answers10">$100</label>
+            </div>
+         </section>
+
+         <!-- QUESTION: 8 -->
+         <div class="pimg8">
+            <div class="ptext">
+               <span class="border">
+                  Sandals? Really?
+               </span>
+            </div>
+         </div>
+
+         <section class="section section-dark">
+            <h2>How much are these sandals though? $50, $500 or $5000</h2>
+
+            <!-- ANSWER DIV HERE - TYPE IN ANSWER -->
+            <div class="answer">
+               <input type="text" pattern="\d+" name="answers8" required placeholder="50">
+            </div>
+         </section>
+
+         <!-- QUESTION: 9 -->
+         <div class="pimg9">
+            <div class="ptext">
+               <span class="border">
+                  Nice comfy sweater!
+               </span>
+            </div>
+         </div>
+
+         <section class="section section-light">
+            <h2>Does it cost an arm and a leg?</h2>
+
+            <!-- ANSWER DIV HERE - RADIO PICK ANSWER-->
+            <div class="answer">
+               <input type="radio" name="answers9" value="100" required>
+               <label for="answers10">$100</label>
+               <br>
+
+               <input type="radio" name="answers9" value="600" required>
+               <label for="answers10">$600</label>
+               <br>
+
+               <input type="radio" name="answers9" value="820" required>
+               <label for="answers10">$820</label>
+            </div>
+         </section>
+
+         <!-- QUESTION: 10 -->
+         <div class="pimg10">
+            <div class="ptext">
+               <span class="border">
+                  Last one!
+               </span>
+            </div>
+         </div>
+
+         <section class="section section-dark">
+            <h2>Can you guess the cost of this coat?</h2>
+
+            <!-- ANSWER DIV HERE - DROP DOWN PICK ANSWER -->
+            <div class="answer">
+               <select name="answers10" size=3 required>
+                  <option value="99">$99</option>
+                  <option value="300">$300</option>
+                  <option value="750">$750</option>
+               </select>
+            </div>
+
+            <!-- THE SUBMIT BUTTON IS RIGHT HERE -->
+
+            <div id="submit">
+               <input id="submitButton" type="submit" name="submit" value="Done? Click here and see your score!">
+            </div>
+         </section>
+      </form>
+   </body>
+</html>
