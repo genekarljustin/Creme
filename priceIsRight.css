@@ -1,0 +1,159 @@
+body, html {
+   height: 100%;
+   margin: 0;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: antiquewhite;
+   font-weight: 400;
+   line-height: 1.8em;
+   color: #666;
+}
+
+#nav {
+   background-color: white;
+   padding: 0px;
+   justify-content: center;
+   text-decoration: inherit;
+}
+
+.nav {
+   text-transform: uppercase;
+   padding: 20px;
+   background-color: white;
+   color: black;
+   display: inline-block;
+   transition: 0.3s;
+   text-decoration: inherit;
+}
+
+.nav:hover {
+   background-color: rgb(236, 205, 167);
+   color: white;
+   opacity: 0.6;
+}
+
+#logo {
+   width: 10%;
+   display: inline-block;
+   padding: 0px;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10 {
+   position: relative;
+   opacity: 0.75;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+.pimg1 {
+   background-image: url('https://cdn.yoox.biz/11/11180869VR_12_a_V4.jpg');
+   min-height: 100%;
+}
+
+.pimg2 {
+   background-image: url('https://www.amiparis.com/BWContent/ami/21_020_7d7c5bae-97b3-43f3-8990-eebe820a7d51.jpg');
+   min-height: 100%;
+}
+
+.pimg3 {
+   background-image: url('https://images.complex.com/complex/image/upload/c_limit,w_680/fl_lossy,pg_1,q_auto/monclera_15aw_01_ewe5ar.jpg');
+   min-height: 100%;
+}
+
+.pimg4 {
+   background-image: url('https://res-4.cloudinary.com/ssenseweb/image/upload/b_white/c_scale,h_820/f_auto,dpr_1.0/182342M192002_1.jpg');
+   min-height: 100%;
+}
+
+.pimg5 {
+   background-image: url('https://res-1.cloudinary.com/ssenseweb/image/upload/b_white/c_scale,h_820/f_auto,dpr_1.0/182188F110003_1.jpg');
+   min-height: 100%;
+}
+
+.pimg6 {
+   background-image: url('https://res-4.cloudinary.com/ssenseweb/image/upload/b_white/c_scale,h_820/f_auto,dpr_1.0/182678F099001_1.jpg');
+   min-height: 100%;
+}
+
+.pimg7 {
+   background-image: url('https://res-1.cloudinary.com/ssenseweb/image/upload/b_white/c_scale,h_820/f_auto,dpr_1.0/182129F099002_1.jpg');
+   min-height: 100%;
+}
+
+.pimg8 {
+   background-image: url('https://res-1.cloudinary.com/ssenseweb/image/upload/b_white/c_scale,h_820/f_auto,dpr_1.0/182232M234005_5.jpg');
+   min-height: 100%;
+}
+
+.pimg9 {
+   background-image: url('https://cdn.shopify.com/s/files/1/1016/1219/products/CMMN_SWDN_MICHA_BROWN_CHECK_005_copy_1400x.jpg?v=1535725456');
+   min-height: 100%;
+}
+
+.pimg10 {
+   background-image: url('https://static.zara.net/photos///2018/I/0/1/p/2969/268/704/5/w/560/2969268704_1_1_1.jpg?ts=1543484044219');
+   min-height: 100%;
+}
+
+.section {
+   text-align: center;
+   padding: 20px 50px;
+}
+
+.section-light {
+   background-color: moccasin;
+}
+
+.section-dark {
+   background-color: burlywood;
+}
+
+.ptext {
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+   color: black;
+   font-size: 27px;
+   letter-spacing: 6px;
+   text-transform: uppercase;
+}
+
+.ptext .border {
+   background-color: antiquewhite;
+}
+
+#submitButton {
+   border: 0;
+   background-color: darksalmon;
+   color: white;
+   width: auto;
+   padding: 0.5rem;
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   transition: 0.3s;
+}
+
+#submitButton:hover {
+   opacity: 1;
+   background-color: blanchedalmond;
+   color: rosybrown;
+   border-radius: 20px;
+}
+
+.answers2 {
+   background-color: blanchedalmond;
+   font-size: 20px;
+   display: block;
+}
+
+.answer {
+   text-decoration: inherit;
+   color: inherit;
+}
+
+input[type=text] {
+   position: relative;
+   background-color: bisque;
+}
